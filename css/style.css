@@ -1,0 +1,56 @@
+#header-bg-img {
+    background: linear-gradient(#00000039, #00000039), url("../img/headerbg.jpg")center/cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+} 
+
+.header-content {
+    margin: 50px 0px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+}
+
+.carousel-indicators .button {
+    width: 60px; /* Buttonun eni */
+    height: 60px; /* Buttonun hündürlüyü */
+    border-radius: 50%; /* Dairəvi forma */
+    background-size: cover; /* Şəkil tam olaraq örtülür */
+    background-position: center; /* Şəkil mərkəzə yerləşir */
+    margin: 5px; /* Aralarında boşluq */
+    border: none; /* Default sərhədi silir */
+    opacity: 0.7; /* Şəffaflıq əlavə edir */
+    transition: opacity 0.3s ease; /* Yumşaq keçid */
+}
+
+.carousel-indicators .button.active {
+    opacity: 1; /* Aktiv düymə tam görünür */
+}
+
+/* Hər bir düyməyə fərqli şəkil təyin edin */
+#slideimg1 {
+    background-image: url('../img/sliderImg1.png');
+}
+
+#slideimg2 {
+    background-image: url('../img/sliderImg2.png');
+}
+
+#slideimg3 {
+    background-image: url('../img/sliderImg3.png');
+}
+
+#slideimg4 {
+    background-image: url('../img/sliderImg4.png');
+}
+
+#slideimg5 {
+    background-image: url('../img/sliderImg5.png');
+}
+.carousel-item {
+    
+}
